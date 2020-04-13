@@ -1,0 +1,48 @@
+<head>
+    <title>
+        JS_EXERCISE-3
+    </title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Exercise on DOM manipulation</legend>
+        <div>
+            <div>
+                <label>Enter Id</label>
+                <input type="text" id="id">
+            </div>
+            <div>
+                <label>
+                    Enter Name
+                </label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label>
+                    Enter Status
+                </label>
+                <input type="text" id="status">
+            </div>
+            <div>
+                <label>
+                    Enter Description
+                </label>
+                <input type="text" id="description">
+            </div>
+            <div>
+                <button onclick="handlers.addProject()">Add Project</button>
+                <button onclick="handlers.display()">Display Projects</button>
+                <button onclick="handlers.checkCount()">Check</button>
+            </div>
+            <div id="table_id" class="div-css">
+
+            </div>
+            <div id="check">
+
+            </div>
+        </div>
+    </fieldset>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
